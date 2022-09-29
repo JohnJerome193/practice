@@ -28,8 +28,55 @@ Question 4: Who is the Mother of Persephone?<br>
 <input type="radio" name="Question 4" >Athena<br>
 <input type="radio" name="Question 4" >Hera<br>
 
-<input type="submit" name="submit" value="Submit Quiz" onclick="result()">
+Question 5: Who is the twin brother of Artemis?<br>
+<input type="radio" name="Question 5" >Zeus<br>
+<input type="radio" name="Question 5" id="correct5">>Apollo<br>
+<input type="radio" name="Question 5" >Hades<br>
+<input type="radio" name="Question 5" >Poseidon<br>
 
+Question 6: Who is the goddess of marriage?<br>
+<input type="radio" name="Question 6" >Aphrodite<br>
+<input type="radio" name="Question 6" id="correct6">>Hera<br>
+<input type="radio" name="Question 6" >Hectate<br>
+<input type="radio" name="Question 6" >Persephone<br>
+
+Question 7: Who is the goddess of war?<br>
+<input type="radio" name="Question 7" id="correct7">Athena<br>
+<input type="radio" name="Question 7" >Artemis<br>
+<input type="radio" name="Question 7" >Aphrodite<br>
+<input type="radio" name="Question 7" >Demeter<br>
+
+Question 8: Who is the god of war?<br>
+<input type="radio" name="Question 8" >Orpheus<br>
+<input type="radio" name="Question 8" >Zeus<br>
+<input type="radio" name="Question 8" >Eros<br>
+<input type="radio" name="Question 8" id="correct8">Ares<br>
+
+Question 9: Who is the god of blacksmiths?<br>
+<input type="radio" name="Question 9" >Icarus<br>
+<input type="radio" name="Question 9" >Asclepius<br>
+<input type="radio" name="Question 9" >Aeolus<br>
+<input type="radio" name="Question 9" id="correct9">Hephaestus<br>
+
+Question 10: Who is a son of Zeus?<br>
+<input type="radio" name="Question 10" >Hades<br>
+<input type="radio" name="Question 10" id="correct10">Hermes<br>
+<input type="radio" name="Question 10" >Poseidon<br>
+<input type="radio" name="Question 10" >Erebus<br>
+
+Question 11: What isn't Athena considered the goddess of?<br>
+<input type="radio" name="Question 11" >Love<br>
+<input type="radio" name="Question 11" >Venus<br>
+<input type="radio" name="Question 11" >Swans<br>
+<input type="radio" name="Question 11" id="correct11">Wisdom<br>
+
+Question 12: Which of these goddesses was not a virgin?
+<input type="radio" name="Question 12" >Athena<br>
+<input type="radio" name="Question 12" >Artemis<br>
+<input type="radio" name="Question 12" id="correct12">Hera<br>
+<input type="radio" name="Question 12" >Hestia<br>
+
+<input type="submit" name="submit" value="Submit Quiz" onclick="result()">
 <script type="text/javascript">
 	function result() {
 		// body...
@@ -47,6 +94,38 @@ Question 4: Who is the Mother of Persephone?<br>
 			score++;
 		}
 		if (document.getElementsById('correct4').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct5').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct6').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct7').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct8').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct9').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct10').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct11').checked) 
+		{
+			score++;
+		}
+		if (document.getElementsById('correct12').checked) 
 		{
 			score++;
 		}
